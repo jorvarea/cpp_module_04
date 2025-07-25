@@ -11,7 +11,7 @@ RM = rm -rf
 ##                              SOURCES AND OBJECTS                           ##
 ################################################################################
 
-SRC = main.cpp ClapTrap.cpp
+SRC = main.cpp Animal.cpp Dog.cpp Cat.cpp Brain.cpp
 
 OBJECTS = $(SRC:.cpp=.o)
 
