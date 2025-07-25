@@ -29,7 +29,9 @@ int main() {
 
     std::cout << std::endl << "=== Testing deep copy ===" << std::endl << std::endl;
     Dog originalDog;
-    Dog copiedDog = originalDog;
+    Dog copiedDog;
+
+    copiedDog = originalDog;
 
     std::cout << std::endl << " --- Modifying originalDog's brain ---" << std::endl << std::endl;
 
