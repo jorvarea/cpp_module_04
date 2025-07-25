@@ -11,7 +11,7 @@ RM = rm -rf
 ##                              SOURCES AND OBJECTS                           ##
 ################################################################################
 
-SRC = main.cpp Animal.cpp Dog.cpp Cat.cpp
+SRC = main.cpp Animal.cpp Dog.cpp Cat.cpp WrongAnimal.cpp WrongCat.cpp
 
 OBJECTS = $(SRC:.cpp=.o)
 
