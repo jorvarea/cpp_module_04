@@ -2,7 +2,7 @@
 #include <iostream>
 
 AAnimal::AAnimal() : _type("AAnimal") {
-    std::cout << "Animal constructor called" << std::endl;
+    std::cout << "AAnimal constructor called" << std::endl;
 }
 
 AAnimal::AAnimal(const AAnimal &other) {
